@@ -1,0 +1,153 @@
+@charset "UTF-*";
+
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('../componentes/fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../componentes/fonts/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../componentes/fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../components/fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../componentes/fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../componentes/fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+  
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../componentes/fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../componentes/fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../componentes/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../componentes/fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../componentes/fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../componentes/fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'poppinsregular';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BAA382;
+    transition: .2s all;
+}
+
+#inscreva-se {
+    padding: 10px;
+    border: 3px solid #BAA382;
+    border-radius: 15px;
+}
+#inscreva-se:hover {
+    background-color: #BAA382;
+    color: white;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2  {
+    font-size: 56px;
+    font-family: 'poppinsmedium';
+}
+
+span {
+    color: #BAA382;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'poppinslight';
+}
+
+img {
+    width: 580px;
+    border-radius: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: #BAA382;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
