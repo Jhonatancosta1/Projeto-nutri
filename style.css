@@ -85,6 +85,11 @@ a:hover {
     transition: .2s all;
 }
 
+#inicio {
+    border: 3px solid #BAA382;
+    border-radius: 15px;
+}
+
 #inscreva-se {
     padding: 10px;
     border: 3px solid #BAA382;
