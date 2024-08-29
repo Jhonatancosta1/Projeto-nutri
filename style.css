@@ -119,6 +119,15 @@ span {
     color: #BAA382;
 }
 
+#espaco li {
+    line-height: 10px;
+    margin: 9px;
+}
+
+ol {
+    padding-left: 2px;
+}
+
 p {
     text-indent: 30px;
     line-height: 25px;
