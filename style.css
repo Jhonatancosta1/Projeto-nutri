@@ -67,7 +67,7 @@ header {
 
 #title {
     flex-direction: column;
-    line-height: 10px;
+    line-height: 15px;
 }
 
 li {
@@ -121,8 +121,8 @@ span {
 
 p {
     text-indent: 30px;
-    line-height: 20px;
-    max-width: 500px;
+    line-height: 25px;
+    max-width: 745px;
     font-family: 'poppinslight';
 }
 
