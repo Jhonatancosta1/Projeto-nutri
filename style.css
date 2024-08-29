@@ -120,12 +120,18 @@ span {
 }
 
 p {
+    text-indent: 30px;
     line-height: 20px;
     max-width: 500px;
     font-family: 'poppinslight';
 }
 
 img {
+    width: 400px;
+    border-radius: 80px;
+}
+
+.tamanho {
     width: 580px;
     border-radius: 80px;
 }
